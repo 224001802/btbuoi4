@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu Phạm Thị Hoàng Lan</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+            /* Nút Quay lại */
+            .back-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            text-align: center;
+        }
+         /* Container for content */
+        .container {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .about-me {
+            margin-bottom: 30px;
+        }
+
+        .about-me p {
+            font-size: 16px;
+            text-align: justify;
+            color: #555;
+        }
+
+        .video-container {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .video-container iframe {
+            border-radius: 8px;
+        }
+
+        .skills, .hobbies {
+            margin-bottom: 30px;
+        }
+
+        .skills ul, .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills li, .hobbies li {
+            background-color: #e0e0e0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .contact {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Phạm Thị Hoàng Lan</h1>
+        <p>Thích Sáng Tạo</p>
+    </header>
+
+    <div class="container">
+        <section class="about-me">
+            <h2>Giới thiệu về tôi</h2>
+            <img src="hinh-anh-hoa-hong-đep.jpg" alt="Ảnh đại diện" class="profile-img">
+            <p>Chào các bạn, tôi là Phạm Thị Hoàng Lan. Tôi yêu thích thiết kế web và lập trình. Đối với tôi, công việc không chỉ là nghề nghiệp mà còn là đam mê và sự sáng tạo. Tôi thích tìm hiểu và thử nghiệm các công nghệ mới trong lập trình và thiết kế giao diện người dùng (UI).</p>
+        </section>
+
+        <section class="video-container">
+            <h2>Video yêu thích của tôi</h2>
+            <iframe width="560" height="315" src="Video yêu thích.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h2>Sở thích</h2>
+            <ul>
+                <li>Chơi game</li>
+                <li>Du lịch</li>
+                <li>Đọc sách</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Liên hệ với tôi</h2>
+            <p><a href="https://www.facebook.com/phamlan13072006" target="_blank">Facebook của tôi</a></p>
+        </section>
+    </div>
+</body>
+</html>
