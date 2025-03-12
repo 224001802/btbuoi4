@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Bài Học</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Avatar góc trái trên -->
+    <div class="avatar">
+        <img src="a1.jpg">
+    </div>
+
+    <!-- Thanh menu ngang -->
+    <nav class="horizontal-menu">
+        <ul>
+            <li><a href="#menu1">Bài buổi 1</a></li>
+            <li><a href="#menu2">Bài buổi 2</a></li>
+            <li><a href="#menu3">Bài buổi 3</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <!-- Thanh menu dọc -->
+        <div class="sidebar">
+            <div id="menu1" class="vertical-menu">
+                <ul>
+                    <li><a href="bai_1/index.html" target="noidung">Bài 1</a></li>
+                    <li><a href="bai_2/index.html" target="noidung">Bài 2</a></li>
+                    <li><a href="bai_3/index.html" target="noidung">Bài 3</a></li>
+                    <li><a href="bai_4/index.html" target="noidung">Bài 4</a></li>
+                </ul>
+            </div>
+
+            <div id="menu2" class="vertical-menu">
+                <ul>
+                    <li><a href="bài1/bài1.1/index.html" target="noidung">Bài 1.1</a></li>
+                    <li><a href="bài1/bài1.2/index.html" target="noidung">Bài 1.2</a></li>
+                    <li><a href="bài1/bài1.3/index.html" target="noidung">Bài 1.3</a></li>
+                    <li><a href="bài2/bài2.1/index.html" target="noidung">Bài 2.1</a></li>
+                    <li><a href="bài2/bài2.2/index.html" target="noidung">Bài 2.2</a></li>
+                    <li><a href="bài2/bài2.3/index.html" target="noidung">Bài 2.3</a></li>
+                    <li><a href="bài3/index.html" target="noidung">Bài 3</a></li>
+                        
+                </ul>
+            </div>
+
+            <div id="menu3" class="vertical-menu">
+                <ul>
+                    <li><a href="luyentap_1.1/index.html" target="noidung">Bài 1.1</a></li>
+                    <li><a href="luyentap_1.2/index.html" target="noidung">Bài 1.2</a></li>
+                    <li><a href="luyentap_2/index.html" target="noidung">Bài 2</a></li>
+                    <li><a href="luyentap_3/index.html" target="noidung">Bài 3</a></li>
+                    <li><a href="luyentap_4/index.html" target="noidung">Bài 4</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-area">
+            <iframe name="noidung" id="noidung" src="default.html"></iframe>
+        </div>
+    </div>
+    <button class="back-button" onclick="history.back()">⬅ Quay lại</button>
+</body>
+</html>
